@@ -1,7 +1,7 @@
 import React from 'react';
 import {Tooltip} from 'react-bootstrap';
 import {Components} from 'mattermost-webapp/types';
-import a2bLogo from './assets/a2b_logo.jpg'; // Импорт изображения
+import logo from '../assets/a2b_logo.jpg';
 
 type Props = {
     theme: Components.Theme;
@@ -28,8 +28,8 @@ const SidebarButton = ({theme}: Props) => {
                 }}
             >
                 <img 
-                    src={a2bLogo} 
-                    alt="A2B Logo" 
+                    src={logo}
+                    alt="A2B Logo"
                     style={{
                         width: '24px',
                         height: '24px',
