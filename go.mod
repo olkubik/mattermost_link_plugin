@@ -1,4 +1,4 @@
-module github.com/mattermost/mattermost-plugin-starter-template
+module github.com/olkubik/mattermost_link_plugin
 
 go 1.22.0
 

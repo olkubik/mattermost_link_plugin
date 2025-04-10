@@ -3,7 +3,7 @@
     "target": "esnext",
     "baseUrl": "./",
     "paths": {
-      "@/*": ["src/*"],
+      "@/*": ["src/*"]
     },
     "lib": [
       "dom",
@@ -23,11 +23,18 @@
     "isolatedModules": true,
     "noEmit": true,
     "experimentalDecorators": true,
-    "jsx": "react"
+    "jsx": "react",
+    "types": [
+      "mattermost-webapp/types",
+      "node",
+      "react",
+      "react-dom"
+    ]
   },
   "include": [
     "src",
-    "tests"
+    "tests",
+    "types/**/*.d.ts"
   ],
   "exclude": [
     "dist",
